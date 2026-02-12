@@ -24,7 +24,7 @@ export class TravelAgentService {
   private ai: GoogleGenAI;
 
   constructor() {
-    this.ai = new GoogleGenAI({ apiKey: process.env.API_KEY as string });
+    this.ai = new GoogleGenAI({ apiKey: import.meta.env.VITE_GEMINI_API_KEY as string });
   }
 
   private initChat() {
