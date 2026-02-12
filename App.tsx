@@ -3,7 +3,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import { Sidebar } from './components/Sidebar';
 import { ChatBubble } from './components/ChatBubble';
 import { Message } from './types';
-import { GeminiService } from './services/geminiService';
+import { GeminiService } from './services/geminiService.ts';
 import { QUICK_PROMPTS } from './constants';
 import { Send, Map, Menu, X, Waves, Info } from 'lucide-react';
 
