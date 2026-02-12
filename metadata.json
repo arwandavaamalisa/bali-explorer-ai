@@ -1,0 +1,8 @@
+
+{
+  "name": "Bali Explorer AI",
+  "description": "A sophisticated travel agent chatbot specializing in Bali vacations, offering personalized itineraries, local insights, and cultural guidance.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
