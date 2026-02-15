@@ -25,7 +25,7 @@ export const ChatBubble: React.FC<ChatBubbleProps> = ({ message }) => {
               ? 'bg-white text-slate-800 rounded-tl-none border border-slate-100' 
               : 'bg-emerald-600 text-white rounded-tr-none'
           }`}>
-            <ReactMarkdown className="prose prose-sm max-w-none prose-p:leading-relaxed">
+            <ReactMarkdown className="prose prose-sm max-w-none">
               {message.content}
             </ReactMarkdown>
           </div>
