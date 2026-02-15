@@ -1,7 +1,7 @@
 import ReactMarkdown from 'react-markdown';
 import React from 'react';
 import { Message } from '../types';
-import { User, Palm outdoor } from 'lucide-react';
+import { User, Palm tree } from 'lucide-react';
 
 interface ChatBubbleProps {
   message: Message;
